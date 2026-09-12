@@ -1099,20 +1099,20 @@ iv>
                 </div>
                 <!-- Project 2 -->
                 <div class="project-card reveal reveal-delay-1">
-                    <div class="project-icon">&#x1F30D;</div>
-                    <h3>Carbon Footprint Optimizer</h3>
-                    <div class="project-period">Oct 2025 &mdash; Dec 2025</div>
-                    <p>Built a carbon aware cloud scheduler pulling real time emission data from the UK Carbon Intensity API to place workloads across distributed datacenters. Benchmarked 4 scheduling algorithms with a full stack Flask + React dashboard.</p>
+                    <div class="project-icon">&#x1F9ED;</div>
+                    <h3>LocalLens</h3>
+                    <div class="project-period">Feb 2026 &mdash; Apr 2026</div>
+                    <p>Local-first RAG assistant for travelers and recent movers. Hybrid BM25 + dense retrieval (RRF) with structured place search, orchestrated through a LangGraph agent that classifies intent, broadens search when evidence is thin, and carries session memory across turns. Exposed via a FastAPI service with pytest coverage and a scored eval gate in CI.</p>
                     <div class="project-tags">
-                        <span>Flask</span>
-                        <span>React</span>
-                        <span>REST API</span>
-                        <span>Algorithms</span>
+                        <span>RAG</span>
+                        <span>LangGraph</span>
+                        <span>Hybrid Retrieval</span>
+                        <span>FastAPI</span>
                         <span>Python</span>
                     </div>
                     <div class="project-stats">
-                        <div class="project-stat"><strong>4</strong> Algorithms</div>
-                        <div class="project-stat"><strong>6</strong> API Endpoints</div>
+                        <div class="project-stat"><strong>Hybrid</strong> BM25 + Dense</div>
+                        <div class="project-stat"><strong>Multi-turn</strong> Memory</div>
                     </div>
                     <a href="https://github.com/sohanmshetty49" target="_blank" class="project-link">View on GitHub &rarr;</a>
                 </div>
@@ -1135,7 +1135,40 @@ iv>
                     </div>
                     <a href="https://github.com/sohanmshetty49" target="_blank" class="project-link">View on GitHub &rarr;</a>
                 </div>
+                <!-- Project 4 -->
+                <div class="project-card reveal reveal-delay-3">
+                    <div class="project-icon">&#x1F6E1;&#xFE0F;</div>
+                    <h3>ShiftGuard</h3>
+                    <div class="project-period">Mar 2026 &mdash; Apr 2026</div>
+                    <p>Event-aware distribution shift detection and human-in-the-loop adaptation for non-stationary forex markets. A monitored XGBoost regressor with SHAP-based feature-group attribution, a Streamlit HITL review dashboard, and 5 selective-retraining policies. Profiled the retraining loop with cProfile and cut wall-clock time 1.7x by parallelizing independent per-shift XGBoost hyperparameter-tuned refits.</p>
+                    <div class="project-tags">
+                        <span>XGBoost</span>
+                        <span>SHAP</span>
+                        <span>HITL</span>
+                        <span>Distribution Shift</span>
+                        <span>Python</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="project-stat"><strong>3</strong> Instruments</div>
+                        <div class="project-stat"><strong>1.7x</strong> Faster Retraining</div>
+                    </div>
+                    <a href="https://github.com/sohanmshetty49" target="_blank" class="project-link">View on GitHub &rarr;</a>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- ===== PUBLICATIONS ===== -->
+    <section id="publications" style="position:relative;z-index:1;padding:2rem 4rem 6rem;">
+        <div class="projects-inner" style="text-align:center;">
+            <p class="section-label reveal">Publications</p>
+            <h2 class="section-title reveal reveal-delay-1" style="margin-bottom:1.5rem;">Research</h2>
+            <p class="about-description reveal" style="max-width:800px;margin:0 auto;">
+                <strong>Sentiment Analysis of Amazon Food Reviews Using VADER and RoBERTa Models</strong>
+                &mdash; Yedu Vamshi Y, Sohan M, Sowmya Lakshmi B.S. Co-authored NLP paper from B.M.S. College of
+                Engineering, extended with fine-tuning and a misclassification-analysis pipeline in the
+                <a href="https://github.com/sohanmshetty49/Sentiment-Analysis-of-Amazon-Food-Reviews-Using-VADER-and-RoBERTa-Models" target="_blank" style="color:#00d4ff;">project repo</a>.
+            </p>
         </div>
     </section>
 
@@ -1198,7 +1231,7 @@ iv>
         <div class="contact-inner">
             <p class="section-label reveal">Get In Touch</p>
             <h2 class="contact-title reveal reveal-delay-1">Let's Connect.</h2>
-            <p class="contact-subtitle reveal reveal-delay-2">Whether it's about AI, campus ambassador opportunities, a collaboration, or just to say hi, I'd love to hear from you.</p>
+            <p class="contact-subtitle reveal reveal-delay-2">Whether it's about AI roles, research collaborations, or just to say hi, I'd love to hear from you.</p>
             <div class="contact-links reveal reveal-delay-3">
                 <a href="https://github.com/sohanmshetty49" target="_blank" class="contact-link">
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
